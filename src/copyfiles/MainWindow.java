@@ -198,7 +198,7 @@ public class MainWindow extends JFrame {
     DefaultMutableTreeNode nodeLevel3;
 
     AS400 remoteServer;
-    CheckConnection chkConn;
+    ///CheckConnection chkConn;
 
     String language = "cs-CZ";
 
@@ -210,7 +210,7 @@ public class MainWindow extends JFrame {
 
     JButton connectReconnectButton = new JButton("Connect/Reconnect");
 
-    JCheckBox printDebugCheckBox = new JCheckBox();
+    ///JCheckBox printDebugCheckBox = new JCheckBox();
 
     JLabel libraryPatternLabel = new JLabel("LIB:");
     JTextField libraryPatternTextField = new JTextField();
@@ -552,12 +552,12 @@ public class MainWindow extends JFrame {
             // Set color to button text
             connectReconnectButton.setForeground(DIM_BLUE);
 
-            chkConn = new CheckConnection(remoteServer);
+            ///chkConn = new CheckConnection(remoteServer);
 
-            printDebugCheckBox.setSelected(properties.getProperty("PRINT_DEBUG").isEmpty() ? false : true);
+            ///printDebugCheckBox.setSelected(properties.getProperty("PRINT_DEBUG").isEmpty() ? false : true);
 
             /// Force checking connection in background
-            printDebugCheckBox.setSelected(true);
+            ///printDebugCheckBox.setSelected(true);
             ///if (printDebugCheckBox.isSelected()) {
             ///    printDebugCheckBox.setToolTipText("Print debug messages.");
             ///} else {
@@ -1157,6 +1157,8 @@ public class MainWindow extends JFrame {
             connectReconnectRefresh();
         });
 
+
+        /***
         //
         // ==============================????
         // Print debug info check box - Yes = "Y", No = ""
@@ -1196,7 +1198,8 @@ public class MainWindow extends JFrame {
             }
         });
         // ==============================????
-
+        ***/
+        
         //
         // PC charset combo box
         // --------------------

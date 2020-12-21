@@ -739,6 +739,7 @@ public class Compile extends JFrame {
     }
 
     /**
+     * This method is called from the MainWindow class.
      * This method gets application parameters from "Parameters.txt" file,
      * updates custom default parameters for source file
      * and concludes window creation (show).

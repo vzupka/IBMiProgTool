@@ -60,6 +60,7 @@ Version 03.05 April 2020
 
 - Several functions were improved.
 - Documentation was improved.
+- Java Native Access updated to version 5.6.0
 
 - - - - - - - - - - 
 
@@ -117,4 +118,5 @@ Version 03.05 duben 2020
 
 - Byly zlepšeny některé funkce.
 - Byla zlepšena dokumentace.
+- Java Native Access povýšen na verzi 5.6.0
 
