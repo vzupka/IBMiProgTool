@@ -1,0 +1,3 @@
+Right click PC: /Users/vzupka/Moje dokumenty/Zdroje z ASSIST/VZDB2/QCMDSRC/CBX123X.CMD
+Right click PC: /Users/vzupka/Moje dokumenty/Zdroje z ASSIST/VZDB2/QCMDSRC/RTVPFD.CMD
+/QDLS: Access to request was denied.
