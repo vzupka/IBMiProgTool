@@ -1,0 +1,71 @@
+H Control Specification
+.....H*.......1..CDYI....S...............1.F..............................Pgm-Id
+
+F File Description Specification
+      Filename
+.....F*ilenameIPEAF....RlenLK1AIOvKlocEDevice+......KOptionEntry+A....U1........
+
+FX File Description Specification (External)
+      Filename
+.....F*ilenameIPEAF........L..I........Device+......KOptionEntry+A....U1........
+
+FC File Description Specification Continuation (SFILE/RENAME)
+.....F*...........Ext-record..................RcdnbrKOptionEntry+...............
+
+FK File Description Specification (Continuation)
+.....F*...........Ext-record..................RcdnbrKOptionEntry+...............
+
+U Auto Report Option Specification
+.....U*...................NN....................................................
+
+E File Extension Specification
+.....E*...FromfileTofile++Name++N/rN/tbLenPDSArrnamLenPDSComments+++++++++......
+
+L Line Counter (L) Specification
+      Filename
+.....L*ilename066Fl060Ol........................................................
+
+I Input Specification (Record Identification)
+      Filename
+.....I*ilenameSqNORiPos1NCCPos2NCCPos3NCC.......................................  
+
+IX Input Specification (Record  Identification-External)
+      Rcdname
+.....I*cdname+....Ri............................................................
+
+J Input Specification (Field Description)
+.....I*...................................PFromTo++DField+L1M1FrPlMnZr..........
+
+JX Input Specification (Field Description -External) 
+.....I*...................................PFromTo++DField+L1M1FrPlMnZr..........
+
+DS Data Structure Specification
+      Dsname
+.....I*sname....NODsExt-file++.............OccrLen+.............................
+
+SS Data Structure Subfield Specification
+.....I*.............Ext-field+............PFromTo++DField+......................
+
+SV Data Structure Subfield Initialization Specification
+.....I*I............Init-value++++++++++++PFromTo++DField+......................
+
+C Calculation Specification
+      L0
+.....C*0N01N02N03Factor1+++OpcdeFactor2+++ResultLenDHHiLoEqComments+++++++......
+
+O Output Specification
+      Filename
+.....O*ilenameDFBASbSaN01N02N03Excnam...........................................
+
+OD Output Specification (Output Disk)
+      Name
+.....O*ame++++DADD....N01N02N03Excnam...........................................
+
+P Output Specification (Field Description)
+.....O*...............N01N02N03Field+YBEnd+PConstant/editword+++++++++..........
+
+N Named Constant (I) Specification
+.....I*.............Namedconstant+++++++++C.........Fldnme......................
+
+Compiled array data (from position 1)
+**CTDATA Arrnam.................................................................

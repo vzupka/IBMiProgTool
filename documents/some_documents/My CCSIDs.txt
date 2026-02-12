@@ -1,0 +1,161 @@
+CCSID (decimal)
+---------------
+65535  Special value indicating data is hex and should not be converted. This is the default for the QCCSID system value.
+
+EBCDIC
+------
+37   EBCDIC US, Canada, Netherlands, Portugal, Brazil, New Zealand, Australia
+256  EBCDIC Netherlands
+273  EBCDIC Austria, Germany
+277  EBCDIC Denmark, Norway
+278  EBCDIC Finland, Sweden
+280  EBCDIC Italy
+284  SPANISH EBCDIC
+285  EBCDIC United Kingdom
+290  EBCDIC Japan Katakana
+297  EBCDIC France
+300  EBCDIC Japan English
+420  EBCDIC Arabic-speaking countries
+423  EBCDIC Greece
+424  EBCDIC Hebrew
+425  EBCDIC Arabic-speaking countries
+500  EBCDIC Belgium, Canada, Switzerland, International Latin-1
+818  EBCDIC Urdu
+833  EBCDIC Korea (extended range)
+834  EBCDIC Korea host double byte (including 1880 UDC)
+835  EBCDIC Traditional Chinese host double byte (including 6204 UDC)
+836  EBCDIC Simplified Chinese (extended range)
+837  EBCDIC Simplified Chinese
+838  EBCDIC Thailand (extended range)
+870  EBCDIC Latin-2 Multilingual
+871  EBCDIC Iceland
+875  EBCDIC Greece
+880  EBCDIC Cyrillic Multilingual
+905  EBCDIC Turkey Latin-3
+924  EBCDIC Latin 9
+930  EBCDIC Japan Katakana (extended range) 4370 UDC (User Defined Characters)
+1025  EBCDIC Cyrillic Multilingual
+1026  EBCDIC Turkey Latin 5 CECP
+1027  EBCDIC Japan English (extended range)
+1097  EBCDIC Farsi
+1112  EBCDIC Baltic, Multilingual
+1122  EBCDIC Estonia
+1123  EBCDIC Cyrillic Ukraine
+1130  EBCDIC Vietnamese
+1132  EBCDIC Lao
+1137  EBCDIC Devanagari
+1153  EBCDIC Latin-2 - Multilingual with euro
+1154  EBCDIC Cyrillic Multilingual with euro
+1155  EBCDIC Turkey Latin 5 with euro
+1156  EBCDIC Baltic, Multilingual with euro
+1157  EBCDIC Estonia EBCDIC with euro
+1158  EBCDIC Cyrillic Ukraine EBCDIC with euro
+1160  EBCDIC Thai host with euro 
+1164  EBCDIC Vietnamese with euro
+1175  EBCDIC Turkey with Euro and Turkish Lira Currency Symbol
+4396  EBCDIC Japanese Host DB including 1880 
+4930  EBCDIC Korean DBCS-Host extended including 11 172 full hangul 
+4933  EBCDIC Simplified Chinese DBCS Host (GBK), all GBK character set and others
+4971  EBCDIC Greek (including euro)
+5123  EBCDIC Japanese Latin Host Extended SBCS (includes euro)
+5233  EBCDIC Devanagari EBCDIC, including Indian Rupee
+8612  EBCDIC Arabic (base shapes only)
+9030  EBCDIC Thai Host Extended SBCS
+12708  EBCDIC Arabic (base shapes, Lamaleph ligatures and Hindi digits) (string type 7)
+13121  EBCDIC Korean Host Extended SBCS
+13124  EBCDIC Simplified Chinese Host Data Single-Byte (GBK) equivalent to Simplified Chinese Host Data Single-Byte (GB) except growing CS
+28709  EBCDIC Traditional Chinese (extended range)
+62211  IBM i specific EBCDIC; Hebrew, string type 5
+62224  IBM i specific EBCDIC; Arabic, string type 6
+62235  IBM i specific EBCDIC; Hebrew, string type 6
+62245  IBM i specific EBCDIC; Hebrew, string type 10
+
+ASCII
+-----
+437  PC Data; PC Base; USA
+819  ISO 8859-1; Latin Alphabet No. 1
+850  PC Data; MLP 222 Latin Alphabet 1
+851  PC Data; Greek
+852  PC Data; Latin-2 Multilingual
+855  PC Data; ROECE Cyrillic
+857  PC Data; Turkey Latin #5
+858  PC Data: MLP 222; Latin Alphabet Number 1 w/euro; Latin-1 Countries
+860  PC Data; Portugal
+861  PC Data; Iceland
+862  PC Data; Hebrew
+863  PC Data; Canada
+864  PC Data; Arabic
+865  PC Data; Denmark, Norway
+866  PC Data; Cyrillic #2 - Personal Computer
+868  PC Data: Urdu
+869  PC Data; Greek
+874  Thai PC Data
+891  Korean PC Data (non-extended) 
+897  Japanese PC Data (non-extended)
+903  Simplified Chinese PC Data (non-extended)
+904  Traditional Chinese PC Data
+912  ISO 8859-2; ROECE Latin-2 Multilingual
+914  Latin 4 - ISO 8859-4
+915  ISO 8859-5; Cyrillic; 8-bit ISO
+916  ISO 8859-8; Hebrew
+920  ISO 8859-9; Latin 5
+921  Baltic, 8-bit (ISO 8859-13)
+922  Estonia, 8-bit (ISO)
+923  ISO 8859-15: Latin Alphabet with euro
+1008  Arabic 8-bit ISO/ASCII
+1040  Korean Latin PC Data extended
+1041  Japanese PC Data extended
+1042  Simplified Chinese PC Data extended
+1043  Traditional Chinese PC Data extended
+1046  PC Data - Arabic Extended
+1051  HP Emulation(for use with Latin 1). GCGID SF150000 is mapped to a control X'7F'
+1088  Korean PC Data single-byte
+1089  ISO 8859-6: Arabic (string type 5)
+1098  Farsi (IBM-PC)
+1114  Traditional Chinese, Taiwan Industry Graphic Character Set (Big5)
+1115  Simplified Chinese National Standard (GB), personal computer SBCS
+1124  Cyrillic Ukraine 8-Bit
+1125  Cyrillic Ukraine PC-Data
+1126  Windows Korean PC Data Single-Byte
+1129  ISO-8 Vietnamese
+1131  Cyrillic Belarus PC-Data
+1133  ISO-8 Lao
+1250  Windows, Latin 2
+1251  Windows, Cyrillic
+1252  Windows,Latin 1
+1253  Windows, Greek
+1254  Windows, Turkish
+1255  Windows, Hebrew
+1256  Windows, Arabic
+1257  Windows, Baltic Rim
+1258  MS Windows, Vietnamese
+4948  Latin 2 PC Data Multilingual
+4951  Cyrillic PC Data Multilingual
+4952  Hebrew PC Data
+4953  Turkey PC Data Latin 5
+4960  Arabic PC Data 
+4965  Greek PC Data
+4970  Thai PC Data Single-Byte
+5210  Simplified Chinese PC Data Single-Byte (GBK), growing CS
+5348  Windows, Latin 1 with euro
+9056  PC Data: Arabic PC Storage/Interchange
+9066  Thai PC Data Extended SBCS
+62210  IBM i specific ISO 8859-8; Hebrew, string type 4
+62215  IBM i specific MS Windows; Hebrew, string type 4
+62218  IBM i specific PC data; Arabic, string type 4
+62222  IBM i specific ISO 8859-9; Hebrew, string type 6
+62223  IBM i specific MS Windows; Hebrew, string type 6
+62228  IBM i specific MS Windows; Arabic, string type 6
+62238  IBM i specific ISO 8859-9; Hebrew, string type 10
+62239  IBM i specific MS Windows; Hebrew, string type 10
+
+
+UNICODE
+-------
+1200  Unicode: UTF-16, big endian
+1208  Unicode: UTF-8
+13488  Unicode: UTF-16 as defined in the Unicode Standard. Fixed CS as defined by Unicode 2.0. Big endian
+
+
+
+
