@@ -1,0 +1,60 @@
+H Control Specification
+      Keywords
+.....H*eywords++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Comments++++++++++++
+
+F File Description Specification
+      Filename  
+.....F*ilename++IPEASFRlen+LKlen+AIDevice+.Keywords+++++++++++++++++++++++++++++Comments++++++++++++
+
+FX File Description Specification (External)
+      Filename
+.....F*ilename++IPEASF.....L.....A.Device+.Keywords+++++++++++++++++++++++++++++Comments++++++++++++
+
+I Input Specification (Record Identification)
+      Filename
+.....I*ilename++SqNORiPos1+NCCPos2+NCCPos3+NCC..................................Comments++++++++++++
+
+IX Input Specification (Record Identification - External)
+      Rcdname
+.....I*cdname+++....Ri..........................................................Comments++++++++++++
+
+J Input Specification (Field Description)
+.....I*.......................Fmt+SPFrom+To+++DcField+++++++++L1M1FrPlMnZr......Comments++++++++++++
+
+JX Input Specification (Field Description - External)
+.....I*.............Ext-field+..................Field+++++++++L1M1..PlMnZr......Comments++++++++++++
+
+D Definition Specification
+      Name
+.....D*ame+++++++++++ETDsFrom+++To/L+++IDc.Keywords+++++++++++++++++++++++++++++Comments++++++++++++
+
+DX Definition Specification Extended
+      Name
+.....D*ame++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Comments++++++++++++
+
+C Calculation Specification
+      L0
+.....C*0N01Factor1+++++++Opcode&ExtFactor2+++++++Result++++++++Len++D+HiLoEq....Comments++++++++++++
+
+CX Calculation Specification Extended
+      L0
+.....C*0N01Factor1+++++++Opcode&ExtExtended-factor2+++++++++++++++++++++++++++++Comments++++++++++++
+
+O Output Specification
+      Filename
+.....O*ilename++DF..N01N02N03Excnam++++B++A++Sb+Sa+.............................Comments++++++++++++
+
+OD Output Specification (Output Disk)
+      Filename
+.....O*ilename++DAddN01N02N03Excnam++++.........................................Comments++++++++++++
+
+P Output Specification (Field Description)
+.....O*.............N01N02N03Field+++++++++YB.End++PConstant/editword/DTformat++Comments++++++++++++
+
+PR Procedure Specification
+      Name
+.....P*ame+++++++++++..T...................Keywords+++++++++++++++++++++++++++++Comments++++++++++++
+
+PX Procedure Specification Extended
+      Name
+.....P*ame++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++Comments++++++++++++

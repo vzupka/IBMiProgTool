@@ -1,0 +1,11 @@
+DDS Display file specification
+      A
+.....A*N01N02N03T.Name++++++RLen++TDpBLinPosFunctions+++++++++++++++++++++++++++
+
+DDS Logical file
+      .
+.....A*.........T.Name++++++.Len++TDpB......Functions+++++++++++++++++++++++++++
+
+DDS Physical file
+      .
+.....A*.........T.Name++++++RLen++TDpB......Functions+++++++++++++++++++++++++++
