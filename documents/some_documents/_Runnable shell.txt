@@ -1,0 +1,2 @@
+cd /directory_with_application_IBMiProgTool_downloaded_from_github.com/vzupka
+chmod +x RunIBMiProgTool.sh
